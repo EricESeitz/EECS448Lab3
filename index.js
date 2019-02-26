@@ -48,7 +48,7 @@ else
   picture.src = "CatPictures/" + (picNum - 1) + ".jpg";
   picture.setAttribute('data-picNum', (picNum - 1));
 }
-}//end of previous
+}//end of previous pic
 
 function nextPicture()
 {
@@ -68,4 +68,19 @@ function nextPicture()
     picture.src = "CatPictures/" + (picNum + 1) + ".jpg";
     picture.setAttribute('data-picNum', (picNum + 1));
   }
-}//end of next
+}//end of next pic
+
+//Exercise 4
+function changeCSS()
+{
+  let userBGColor = document.getElementById("BackgroundColor").value;
+  let userBoarderColor = document.getElementById("BoarderColor").value;
+  let userBoarderWidth = document.getElementById("BoarderWidth").value;
+
+//Change the style attribute
+document.body.style.backgroundColor = userBGColor;
+document.body.style.border = "thin solid white";  //set initial boarder to be changed
+document.body.style.borderColor  = userBoarderColor;
+document.body.style.borderWidth  = userBoarderWidth;
+
+} //end of ex 4
