@@ -1,0 +1,48 @@
+body
+{
+    background-color: lightblue;
+    background-size: 100%;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+h1
+{
+    text-align: center;
+    font-family: Georgia;
+    font-size: 22pt;
+}
+
+h1.subTitle
+{
+    font-family: Georgia;
+    font-size: 18pt;
+    font-style: italic;
+    outline-style: double;
+    background-color: lightgoldenrodyellow;
+}
+
+h4
+{
+    font-family: Georgia;
+    font-size: 12pt;
+    text-align: center;
+}
+
+ul
+{
+    list-style-type: none;
+    font-family: Georgia;
+    font-size: 16pt;
+    text-align: left;
+}
+
+a
+{
+    color: black;
+}
+
+a:hover
+{
+    color: slategray
+}
